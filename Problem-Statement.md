@@ -1,5 +1,5 @@
 # Horcrux Quest
-The Dark Lord has come back to life yet again, turns out that he had another horcrux but this time he has it hidden in n identical caves making it very hard to find. So much so that even Dumbledore cannot find it.
+The Dark Lord has come back to life yet again, turns out that he had another horcrux and this time he has it hidden in n identical caves making it very hard to find. So much so that even Dumbledore cannot find it. :fearful:
 
 Things look grim huh? 
 
@@ -9,7 +9,7 @@ This is what Dumbledore found out:
 
 1.)  The cave is in form of a tree of depth m, where each node has 2 children where each node is either a dead-end or contains a number of Galleons and from each node it is only possible to go to its children.
 
-2.)  Each cave is guarded by Death Eaters. So, there is only a specific range of nodes(nodes numbered between l and r) where you can apparate to without being detected.
+2.)  Each cave is guarded by Death Eaters. So, there is only a specific range of nodes(nodes numbered between l and r) where you can begin your exploration of the cave without being detected. These are the places you apparate to from outside and once you are in undetected you put on your Cloak of Invisibility and roam the caves freely but remember that from a given node you can only travel to its children.
 
 3.)  Griphook will meet you at the end of your quest and will give you the **Horcrux** if you can give him the maximum number of Galleons that you could have picked up in your quest without being detected.
 
@@ -52,7 +52,7 @@ n lines where ith line conatins the maximum number of attainable galleons for th
 13
 
 0
-### Explaination
+### Explanation
 
  So for cave 1 the best you can do is apparate to node 2(with 7 galleons) and then go to node 6( with 6 galleons). Hence you get 13 galleons.
   
