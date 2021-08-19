@@ -27,8 +27,10 @@ Note that this array represents a tree structure where the children of node at i
 This is followed by n lines containing 2 integer l,r representing the safe landing range for each of the caves. Given l and r it is safe to land at index i of iff l≤ i ≤ r.
 
 ## Contraints
-0 ≤ li ≤ ri ≤ n ≤ 100000
+1 ≤ n ≤ 1000000
 
+0 ≤ li ≤ ri ≤ (n-1) 
+ 
 1 ≤ m ≤ 20
 
 -1 ≤ ai ≤ 1000
